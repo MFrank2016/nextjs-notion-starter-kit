@@ -10,16 +10,16 @@ export default siteConfig({
 
   // basic site info (required)
   name: '弗兰克的猫',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  domain: 'my-blog-ighac0z00-mfrank2016.vercel.app/',
+  author: 'Frank',
 
   // open graph metadata (optional)
   description: '你有你的计划，世界另有计划。',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
+  twitter: '',
   github: 'mfrank2016',
-  linkedin: 'fisch2',
+  linkedin: '',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
