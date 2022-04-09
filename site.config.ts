@@ -17,9 +17,9 @@ export default siteConfig({
   description: '你有你的计划，世界另有计划。',
 
   // social usernames (optional)
-  twitter: '',
-  github: 'MFrank2016',
-  linkedin: '',
+  twitter: 'transitive_bs',
+  github: 'mfrank2016',
+  linkedin: 'fisch2',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

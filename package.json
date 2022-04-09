@@ -4,7 +4,10 @@
   "private": true,
   "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transitive-bullshit/nextjs-notion-starter-kit.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14.17"
@@ -37,9 +40,9 @@
     "isomorphic-unfetch": "^3.1.0",
     "katex": "^0.15.3",
     "lqip-modern": "^1.2.0",
-    "next": "^12.1.1",
+    "next": "^12.1.4",
     "next-api-og-image": "^2.2.1",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "notion-client": "^6.9.3-6.10.0-alpha.0.0",
     "notion-types": "^6.7.0",
     "notion-utils": "^6.9.3-6.10.0-alpha.0.0",
@@ -55,28 +58,37 @@
     "static-tweets": "^0.7.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12.1.0",
+    "@next/bundle-analyzer": "^12.1.4",
     "@types/node": "^17.0.23",
     "@types/node-fetch": "^3.0.3",
-    "@types/react": "^17.0.31",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.15.0",
-    "cross-env": "^7.0.2",
-    "eslint": "^8.11.0",
+    "@types/react": "^17.0.44",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-hooks": "^4.4.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
   },
   "resolutions": {
-    "next-api-og-image/chrome-aws-lambda": "6.0.0",
-    "next-api-og-image/puppeteer-core": "6.0.0"
+    "next-api-og-image>chrome-aws-lambda": "6.0.0",
+    "next-api-og-image>puppeteer-core": "6.0.0"
   },
   "overrides": {
     "cacheable-request": {
       "keyv": "npm:@keyvhq/core@~1.6.6"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit/issues"
+  },
+  "homepage": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit#readme",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": []
 }
